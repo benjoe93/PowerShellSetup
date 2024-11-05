@@ -1,3 +1,4 @@
+# function for creating new file using the "touch" from unix
 function touch {set-content -Path ($args[0]) -Value ($null)}
 
 oh-my-posh init pwsh --config 'C:\Users\benbl\AppData\Local\Programs\oh-my-posh\themes\benjoe.omp.json' | Invoke-Expression
